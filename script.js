@@ -1,4 +1,6 @@
 // ========== ScrollReveal ==========
+//ちな8割はopun4.6によるもの。
+//相互リンク受付中
 document.addEventListener('DOMContentLoaded', () => {
     const sr = ScrollReveal({
         origin: 'bottom',
