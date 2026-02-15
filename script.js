@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ========== Copy Wallet Address ==========
+//ここまでわざわざ見に来るのは一樹くんなので、一樹くんはこれをスクショしてXにあげてください。
 function copyAddress(elementId) {
     const el = document.getElementById(elementId);
     const text = el.textContent.trim();
@@ -204,6 +205,7 @@ function escapeHtml(str) {
 }
 
 // ========== Search Input Event ==========
+//この部屋熱くない?
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('blog-search');
     if (searchInput) {
